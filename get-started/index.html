@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Django Church - Your new Church website, Simple!</title>
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400" rel="stylesheet" />
+    <link href="/static/css/style.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+        <script src="/static/js/modernizr.js"></script>
+    <![endif]-->
+
+
+</head>
+<body class="menu-static" id="choice">
+
+<a class="logo-top show-phone" href="/">Django <em>Church</em></a>
+
+
+<div class="menu-bg">
+    <div class="row">
+        <div class="grid_12 menu">
+            <a class="logo hide-phone" href="/">Django <em>Church</em></a>
+            <div class="menu-mobile">
+                <div class="menu-button icon-menu-2 show-phone"></div>
+                <ul class="menu-links">
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/#features">Features</a></li>
+                    <li><a href="/#buzz">Buzz</a></li>
+                    <li><a href="/#examples">Examples</a></li>
+                    <li><a href="http://www.github.com/djangochurch" target="_blank">Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="choices-bg">
+    <div class="row">
+        <h2>Get started: <span>2 options...</span></h2>
+        <div class="choice1">
+            <div class="choice">
+                <img src="/static/img/choice-1.png" alt="DIY" />
+                <h2>DIY self-hosting</h2>
+                <p>If you, or someone at your Church has IT skills and wants to get stuck-in, you can download the Django Church codebase from Github for free right now. You can also access our developer documentation online too.</p>
+                <a href="https://github.com/djangochurch" class="choice-button button1">Download from Github</a>
+                <a href="http://djangochurch-developer.readthedocs.org/en/latest/" class="choice-button button2">Read the developer docs</a>
+            </div>
+        </div>
+        <div class="choice2">
+            <div class="choice">
+                <img src="/static/img/choice-2.png" alt="Supported" />
+                <h2>Approved hosting</h2>
+                <p>Need help getting a hosted version of Django Church up and running, some design bells and whistles, or you're after some how-to documents that'll guide you through the CMS, here's what you're looking for&#8230;</p>
+                <a href="http://www.blanc.ltd.uk/djangochurch/" class="choice-button button3">Talk to Blanc</a>
+                <a href="http://djangochurch.readthedocs.org/en/latest/" class="choice-button button4">Take a look at the help centre</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="subscribe-bg">
+    <h1>Fancy a chat about all of this?</h1>
+    <div class="row team">
+        <div class="grid_8 offset_2">
+            <p>We know that choice paralysis is common when choosing what to do with your website. We're happy to talk through the options a discuss what might be the best fit for you moving forward. Please do pick up the phone, or if you'd rather have a chat over email, simply enter your email below and we'll jump online.</p>
+            <form action="/contact/" method="post" name="subscribeform">
+                <div class="form-subscribe">
+                    <input type="email" required placeholder="Enter your e-mail here" name="email"><button class="submit" type="submit" name="subscribe">Email me</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="copyrights-bg">
+    <div class="row copyrights">
+        <div class="grid_10 copyrights-col">
+            <p><a href="/">DjangoChurch</a> is an open-source framework released by <a href="http://www.dev.ngo/">DEV</a><br />
+                in association with <a href="http://www.cofebirmingham.com/">The Church of England - Birmingham</a></p></div>
+        <div class="grid_2 copyrights-col">
+            <p class="copyright-icons">
+                <a href="https://www.twitter.com/blancltd" class="icon-twitter"></a>
+                <a href="https://www.github.com/djangochurch" class="icon-github"></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/static/js/scripts-min.js"></script>
+
+</body>
+</html>
